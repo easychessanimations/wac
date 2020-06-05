@@ -1,6 +1,6 @@
 {
   "name": "@easychessanimations/wac",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Compiler for a simple C-like language built upon WebAssembly text format ( WAT ).",
   "main": "./lib/wac.js",
   "scripts": {
