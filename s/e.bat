@@ -1,0 +1,1 @@
+node lib/wac.js example/simple.wat -o example/simple.wasm

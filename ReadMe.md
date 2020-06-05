@@ -34,10 +34,18 @@ You should associate the execution of Javascript files ( files with `.js` extens
 npm install -g @easychessanimations/wac
 ```
 
-# Running
+# Compiling the example
 
 Open a terminal window and at the command prompt type:
 
 ```
-wac
+wac example/simple.wat -o example/simple.wasm
+```
+
+# Verifying the example
+
+Open a terminal window and at the command prompt type:
+
+```
+wac example/simple.wat -v
 ```
