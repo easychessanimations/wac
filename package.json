@@ -1,19 +1,19 @@
 {
-  "name": "@easychesssanimations/wac",
-  "version": "1.0.0",
+  "name": "@easychessanimations/wac",
+  "version": "1.0.2",
   "description": "Compiler for a simple C-like language built upon WebAssembly text format ( WAT ).",
   "main": "./lib/wac.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",    
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "wac": "./lib/wac.js",
+    "wac": "./lib/wac.js"
   },
   "keywords": [
     "compiler",
     "language",
     "wasm",
-    "wat",
+    "wat"
   ],
   "author": "easychessanimations",
   "license": "MIT",
@@ -26,6 +26,5 @@
     "type": "git",
     "url": "https://github.com/easychessanimations/wac.git"
   },
-  "dependencies": {    
-  }
+  "dependencies": {}
 }
