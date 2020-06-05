@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	hideDotFiles = dotGitOnly
+[remote "github"]
+	url = https://github.com/easychessanimations/wac.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "gitlab"]
+	url = https://gitlab.com/easychessanimations/wac.git
+	fetch = +refs/heads/*:refs/remotes/gitlab/*
+[user]
+	name = easychessanimations
+	email = easychessanimationsapplication@gmail.com
+	[credential "https://github.com/easychessanimations/wac.git"]
+		username = easychessanimations
+	[credential "https://gitlab.com/easychessanimations/wac.git"]
+		username = easychessanimations
